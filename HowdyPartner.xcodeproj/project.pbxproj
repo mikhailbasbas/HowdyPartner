@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E858AAD169BADCE00ED3567 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E858AAC169BADCE00ED3567 /* UIKit.framework */; };
+		5E858AAF169BADCE00ED3567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E858AAE169BADCE00ED3567 /* Foundation.framework */; };
+		5E858AB1169BADCE00ED3567 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E858AB0169BADCE00ED3567 /* CoreGraphics.framework */; };
+		5E858AB7169BADCE00ED3567 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E858AB5169BADCE00ED3567 /* InfoPlist.strings */; };
+		5E858AB9169BADCE00ED3567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E858AB8169BADCE00ED3567 /* main.m */; };
+		5E858ABD169BADCE00ED3567 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E858ABC169BADCE00ED3567 /* AppDelegate.m */; };
+		5E858ABF169BADCF00ED3567 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E858ABE169BADCF00ED3567 /* Default.png */; };
+		5E858AC1169BADCF00ED3567 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E858AC0169BADCF00ED3567 /* Default@2x.png */; };
+		5E858AC3169BADCF00ED3567 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E858AC2169BADCF00ED3567 /* Default-568h@2x.png */; };
+		5E858ACB169BADCF00ED3567 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E858ACA169BADCF00ED3567 /* SenTestingKit.framework */; };
+		5E858ACC169BADCF00ED3567 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E858AAC169BADCE00ED3567 /* UIKit.framework */; };
+		5E858ACD169BADCF00ED3567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E858AAE169BADCE00ED3567 /* Foundation.framework */; };
+		5E858AD5169BADCF00ED3567 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E858AD3169BADCF00ED3567 /* InfoPlist.strings */; };
+		5E858AD8169BADCF00ED3567 /* HowdyPartnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E858AD7169BADCF00ED3567 /* HowdyPartnerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E858ACE169BADCF00ED3567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E858A9F169BADCE00ED3567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E858AA7169BADCE00ED3567;
+			remoteInfo = HowdyPartner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E858AA8169BADCE00ED3567 /* HowdyPartner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowdyPartner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E858AAC169BADCE00ED3567 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E858AAE169BADCE00ED3567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E858AB0169BADCE00ED3567 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E858AB4169BADCE00ED3567 /* HowdyPartner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HowdyPartner-Info.plist"; sourceTree = "<group>"; };
+		5E858AB6169BADCE00ED3567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E858AB8169BADCE00ED3567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E858ABA169BADCE00ED3567 /* HowdyPartner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HowdyPartner-Prefix.pch"; sourceTree = "<group>"; };
+		5E858ABB169BADCE00ED3567 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E858ABC169BADCE00ED3567 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E858ABE169BADCF00ED3567 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5E858AC0169BADCF00ED3567 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5E858AC2169BADCF00ED3567 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5E858AC9169BADCF00ED3567 /* HowdyPartnerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowdyPartnerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E858ACA169BADCF00ED3567 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5E858AD2169BADCF00ED3567 /* HowdyPartnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HowdyPartnerTests-Info.plist"; sourceTree = "<group>"; };
+		5E858AD4169BADCF00ED3567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E858AD6169BADCF00ED3567 /* HowdyPartnerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HowdyPartnerTests.h; sourceTree = "<group>"; };
+		5E858AD7169BADCF00ED3567 /* HowdyPartnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowdyPartnerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E858AA5169BADCE00ED3567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E858AAD169BADCE00ED3567 /* UIKit.framework in Frameworks */,
+				5E858AAF169BADCE00ED3567 /* Foundation.framework in Frameworks */,
+				5E858AB1169BADCE00ED3567 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E858AC5169BADCF00ED3567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E858ACB169BADCF00ED3567 /* SenTestingKit.framework in Frameworks */,
+				5E858ACC169BADCF00ED3567 /* UIKit.framework in Frameworks */,
+				5E858ACD169BADCF00ED3567 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E858A9D169BADCE00ED3567 = {
+			isa = PBXGroup;
+			children = (
+				5E858AB2169BADCE00ED3567 /* HowdyPartner */,
+				5E858AD0169BADCF00ED3567 /* HowdyPartnerTests */,
+				5E858AAB169BADCE00ED3567 /* Frameworks */,
+				5E858AA9169BADCE00ED3567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E858AA9169BADCE00ED3567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E858AA8169BADCE00ED3567 /* HowdyPartner.app */,
+				5E858AC9169BADCF00ED3567 /* HowdyPartnerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E858AAB169BADCE00ED3567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E858AAC169BADCE00ED3567 /* UIKit.framework */,
+				5E858AAE169BADCE00ED3567 /* Foundation.framework */,
+				5E858AB0169BADCE00ED3567 /* CoreGraphics.framework */,
+				5E858ACA169BADCF00ED3567 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E858AB2169BADCE00ED3567 /* HowdyPartner */ = {
+			isa = PBXGroup;
+			children = (
+				5E858ABB169BADCE00ED3567 /* AppDelegate.h */,
+				5E858ABC169BADCE00ED3567 /* AppDelegate.m */,
+				5E858AB3169BADCE00ED3567 /* Supporting Files */,
+			);
+			path = HowdyPartner;
+			sourceTree = "<group>";
+		};
+		5E858AB3169BADCE00ED3567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E858AB4169BADCE00ED3567 /* HowdyPartner-Info.plist */,
+				5E858AB5169BADCE00ED3567 /* InfoPlist.strings */,
+				5E858AB8169BADCE00ED3567 /* main.m */,
+				5E858ABA169BADCE00ED3567 /* HowdyPartner-Prefix.pch */,
+				5E858ABE169BADCF00ED3567 /* Default.png */,
+				5E858AC0169BADCF00ED3567 /* Default@2x.png */,
+				5E858AC2169BADCF00ED3567 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E858AD0169BADCF00ED3567 /* HowdyPartnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E858AD6169BADCF00ED3567 /* HowdyPartnerTests.h */,
+				5E858AD7169BADCF00ED3567 /* HowdyPartnerTests.m */,
+				5E858AD1169BADCF00ED3567 /* Supporting Files */,
+			);
+			path = HowdyPartnerTests;
+			sourceTree = "<group>";
+		};
+		5E858AD1169BADCF00ED3567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E858AD2169BADCF00ED3567 /* HowdyPartnerTests-Info.plist */,
+				5E858AD3169BADCF00ED3567 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E858AA7169BADCE00ED3567 /* HowdyPartner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E858ADB169BADCF00ED3567 /* Build configuration list for PBXNativeTarget "HowdyPartner" */;
+			buildPhases = (
+				5E858AA4169BADCE00ED3567 /* Sources */,
+				5E858AA5169BADCE00ED3567 /* Frameworks */,
+				5E858AA6169BADCE00ED3567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowdyPartner;
+			productName = HowdyPartner;
+			productReference = 5E858AA8169BADCE00ED3567 /* HowdyPartner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E858AC8169BADCF00ED3567 /* HowdyPartnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E858ADE169BADCF00ED3567 /* Build configuration list for PBXNativeTarget "HowdyPartnerTests" */;
+			buildPhases = (
+				5E858AC4169BADCF00ED3567 /* Sources */,
+				5E858AC5169BADCF00ED3567 /* Frameworks */,
+				5E858AC6169BADCF00ED3567 /* Resources */,
+				5E858AC7169BADCF00ED3567 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E858ACF169BADCF00ED3567 /* PBXTargetDependency */,
+			);
+			name = HowdyPartnerTests;
+			productName = HowdyPartnerTests;
+			productReference = 5E858AC9169BADCF00ED3567 /* HowdyPartnerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E858A9F169BADCE00ED3567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mikhail Lomibao Basbas";
+			};
+			buildConfigurationList = 5E858AA2169BADCE00ED3567 /* Build configuration list for PBXProject "HowdyPartner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E858A9D169BADCE00ED3567;
+			productRefGroup = 5E858AA9169BADCE00ED3567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E858AA7169BADCE00ED3567 /* HowdyPartner */,
+				5E858AC8169BADCF00ED3567 /* HowdyPartnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E858AA6169BADCE00ED3567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E858AB7169BADCE00ED3567 /* InfoPlist.strings in Resources */,
+				5E858ABF169BADCF00ED3567 /* Default.png in Resources */,
+				5E858AC1169BADCF00ED3567 /* Default@2x.png in Resources */,
+				5E858AC3169BADCF00ED3567 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E858AC6169BADCF00ED3567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E858AD5169BADCF00ED3567 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E858AC7169BADCF00ED3567 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E858AA4169BADCE00ED3567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E858AB9169BADCE00ED3567 /* main.m in Sources */,
+				5E858ABD169BADCE00ED3567 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E858AC4169BADCF00ED3567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E858AD8169BADCF00ED3567 /* HowdyPartnerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E858ACF169BADCF00ED3567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E858AA7169BADCE00ED3567 /* HowdyPartner */;
+			targetProxy = 5E858ACE169BADCF00ED3567 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E858AB5169BADCE00ED3567 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E858AB6169BADCE00ED3567 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E858AD3169BADCF00ED3567 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E858AD4169BADCF00ED3567 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E858AD9169BADCF00ED3567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E858ADA169BADCF00ED3567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E858ADC169BADCF00ED3567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HowdyPartner/HowdyPartner-Prefix.pch";
+				INFOPLIST_FILE = "HowdyPartner/HowdyPartner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E858ADD169BADCF00ED3567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HowdyPartner/HowdyPartner-Prefix.pch";
+				INFOPLIST_FILE = "HowdyPartner/HowdyPartner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5E858ADF169BADCF00ED3567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HowdyPartner.app/HowdyPartner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HowdyPartner/HowdyPartner-Prefix.pch";
+				INFOPLIST_FILE = "HowdyPartnerTests/HowdyPartnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5E858AE0169BADCF00ED3567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HowdyPartner.app/HowdyPartner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HowdyPartner/HowdyPartner-Prefix.pch";
+				INFOPLIST_FILE = "HowdyPartnerTests/HowdyPartnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E858AA2169BADCE00ED3567 /* Build configuration list for PBXProject "HowdyPartner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E858AD9169BADCF00ED3567 /* Debug */,
+				5E858ADA169BADCF00ED3567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E858ADB169BADCF00ED3567 /* Build configuration list for PBXNativeTarget "HowdyPartner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E858ADC169BADCF00ED3567 /* Debug */,
+				5E858ADD169BADCF00ED3567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E858ADE169BADCF00ED3567 /* Build configuration list for PBXNativeTarget "HowdyPartnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E858ADF169BADCF00ED3567 /* Debug */,
+				5E858AE0169BADCF00ED3567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E858A9F169BADCE00ED3567 /* Project object */;
+}
