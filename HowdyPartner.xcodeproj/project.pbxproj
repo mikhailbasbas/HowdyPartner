@@ -21,7 +21,7 @@
 		5E858ACD169BADCF00ED3567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E858AAE169BADCE00ED3567 /* Foundation.framework */; };
 		5E858AD5169BADCF00ED3567 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E858AD3169BADCF00ED3567 /* InfoPlist.strings */; };
 		5E858AD8169BADCF00ED3567 /* HowdyPartnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E858AD7169BADCF00ED3567 /* HowdyPartnerTests.m */; };
-		5EB6C4FA169BBB3F001A7DA3 /* HowdyPartner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6C4F9169BBB3F001A7DA3 /* HowdyPartner.m */; };
+		5EB6C4FE169BBBE0001A7DA3 /* HowdyPartner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6C4FD169BBBE0001A7DA3 /* HowdyPartner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		5E858AD4169BADCF00ED3567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E858AD6169BADCF00ED3567 /* HowdyPartnerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HowdyPartnerTests.h; sourceTree = "<group>"; };
 		5E858AD7169BADCF00ED3567 /* HowdyPartnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowdyPartnerTests.m; sourceTree = "<group>"; };
-		5EB6C4F8169BBB3F001A7DA3 /* HowdyPartner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowdyPartner.h; sourceTree = "<group>"; };
-		5EB6C4F9169BBB3F001A7DA3 /* HowdyPartner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowdyPartner.m; sourceTree = "<group>"; };
+		5EB6C4FC169BBBE0001A7DA3 /* HowdyPartner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowdyPartner.h; sourceTree = "<group>"; };
+		5EB6C4FD169BBBE0001A7DA3 /* HowdyPartner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowdyPartner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 		5E858A9D169BADCE00ED3567 = {
 			isa = PBXGroup;
 			children = (
-				5EB6C4F8169BBB3F001A7DA3 /* HowdyPartner.h */,
-				5EB6C4F9169BBB3F001A7DA3 /* HowdyPartner.m */,
+				5EB6C4FC169BBBE0001A7DA3 /* HowdyPartner.h */,
+				5EB6C4FD169BBBE0001A7DA3 /* HowdyPartner.m */,
 				5E858AB2169BADCE00ED3567 /* HowdyPartner */,
 				5E858AD0169BADCF00ED3567 /* HowdyPartnerTests */,
 				5E858AAB169BADCE00ED3567 /* Frameworks */,
@@ -268,7 +268,7 @@
 			files = (
 				5E858AB9169BADCE00ED3567 /* main.m in Sources */,
 				5E858ABD169BADCE00ED3567 /* AppDelegate.m in Sources */,
-				5EB6C4FA169BBB3F001A7DA3 /* HowdyPartner.m in Sources */,
+				5EB6C4FE169BBBE0001A7DA3 /* HowdyPartner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
