@@ -10,4 +10,9 @@
 
 @implementation HowdyPartner
 
+-(void) sayHello
+{
+    NSLog(@"Howdy!");
+}
+
 @end
